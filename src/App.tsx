@@ -11,6 +11,7 @@ import { ROICalculator } from './components/ROICalculator';
 import { Testimonials } from './components/Testimonials';
 import { FAQ } from './components/FAQ';
 import { CTA } from './components/CTA';
+import { ClientsCarousel } from './components/ClientsCarousel';
 import { Contact } from './components/Contact';
 import { WhatsAppButton } from './components/WhatsAppButton';
 export function App() {
@@ -20,10 +21,13 @@ export function App() {
       <Hero />
       <ServicesCarousel />
       <Services />
+     
       <Stats />
+     
       <Portfolio />
       <Process />
       <ROICalculator />
+        <ClientsCarousel />
       <Testimonials />
       <FAQ />
       <CTA />
