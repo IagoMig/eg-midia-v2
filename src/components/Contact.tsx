@@ -19,11 +19,11 @@ export function Contact() {
     e.preventDefault();
     setIsSubmitting(true);
     try {
-      await emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', {
+      await emailjs.send('service_9xzfh8d', 'template_2u0r4he', {
         from_name: formData.name,
         from_email: formData.email,
         message: formData.message
-      }, 'YOUR_PUBLIC_KEY');
+      }, 'ldvarD_eFwoBysHOg');
       toast.success('Mensagem enviada com sucesso!');
       setFormData({
         name: '',

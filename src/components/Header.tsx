@@ -105,7 +105,7 @@ export function Header() {
   src={isScrolled ? "/lg-2.png" : "/lg-1.png"}
   alt="EG Mídia Digital"
   className={`transition-all duration-300 select-none ${
-    isScrolled ? "h-24" : "h-20"
+    isScrolled ? "h-16" : "h-10"
   }`}
 />
 
