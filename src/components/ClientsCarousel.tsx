@@ -25,7 +25,7 @@ export function ClientsCarousel() {
         {duplicatedClients.map((src, index) => (
           <div
             key={index}
-            className="min-w-[260px] flex justify-center items-center bg-white/10 backdrop-blur-xl rounded-3xl p-10 shadow-2xl hover:shadow-[0_0_30px_rgba(255,255,255,0.3)] transition-all duration-300 border border-white/20"
+            className="min-w-[300px] flex justify-center items-center bg-white/10 backdrop-blur-xl rounded-3xl p-10 shadow-2xl hover:shadow-[0_0_30px_rgba(255,255,255,0.3)] transition-all duration-300 border border-white/20"
           >
             <img
               src={src}
